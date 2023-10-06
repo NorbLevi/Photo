@@ -121,3 +121,28 @@ img{
         display: none;
     }
 }
+
+
+@media screen and (max-width: 360px) {
+
+    .Carousel_Container{
+        height: 350px;
+    }
+
+    img{
+        height: 350px;
+    }
+
+    .search_div{
+        left: 1%;
+        margin-bottom: 0.5rem;
+    }
+
+    .Search_input{
+        display: none;
+    }
+
+    .treanding_text{
+        display: none;
+    }
+}
