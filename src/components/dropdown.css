@@ -1,0 +1,124 @@
+.dropdown_menu{
+    position: relative;
+    display: inline-block;
+}
+
+.icon_container{
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 2%;
+}
+
+
+
+.Menu_content{
+    position: absolute;
+    top: 100%;
+    gap: 1rem;
+    right: 0;
+    width: 400px;
+    height: 270px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+}
+
+.Menu_content-container{
+    margin: 0.5rem 1rem;
+}
+
+.menu_item_title{
+    display: flex;
+    gap: 10px;
+    margin:0 0.8rem ;
+    cursor: pointer;
+}
+
+
+.Menu_Icon{
+    height: 100%;
+    font-size: 20px;
+}
+
+.menu_item{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.menu_item li{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.Social_icon{
+    gap: 0.5rem;
+}
+
+.Social_icons{
+    font-size: 20px;
+}
+
+.footer_divider{
+    border-bottom: 2px solid rgb(145, 142, 142);
+    width: 100%;
+}
+
+.footer1{
+    gap: 0.8rem;
+}
+
+.Social_icon2{
+    display: none;
+}
+
+
+.login2{
+    display: none;
+}
+
+
+@media (max-width: 450px){
+    .Menu_content{
+        width: 200px;
+        height: auto;
+    }
+
+    .Menu_content-container{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menuitem_list{
+        display: none;
+    }
+
+    .menu_item{
+        align-items: center;
+        justify-content: right;
+    }
+
+    .Social_icon{
+        display: none;
+    }
+
+    .Social_icon2{
+        display: flex;
+        gap: 1.5rem;
+        justify-content: flex-end;
+    }
+
+    .login2{
+        display: flex;
+    }
+
+    .footer1{
+        flex-direction: column;
+        text-align: right;
+        margin-right: 0.9rem;
+    }
+}
