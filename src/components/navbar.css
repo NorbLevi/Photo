@@ -184,11 +184,11 @@ margin-left: 10px;
     }
 
     .carousel-controls{
-        gap: 700px;
+        gap: 690px;
     }
     
     .category_container{
-        width: 90%;
+        width: 700px;
     }
 
     .editorial{
@@ -307,13 +307,13 @@ margin-left: 10px;
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
     .navbar{
         width: 340px;
     }
     
     .navbar_A{
-        gap: 0.5%;
+        gap: 3%;
     }
 
     .app_search{
@@ -327,11 +327,11 @@ margin-left: 10px;
 
     .search_btn{
         width: 320px;
-        gap: 0.2rem;
+        gap: 0.5rem;
     }
 
     .search_icon{
-        display: none;
+        display: flex;
     }
 
 
@@ -341,18 +341,18 @@ margin-left: 10px;
     }
 
     .category-carousel{
-        width: 250px;
+        width: 350px;
     }
 
     .category_container{
         margin-left: 0.2rem;
         gap: 0.3rem;
-        width: 330px;
+        width: 350px;
     }
 
     .carousel-controls{
-        width: 340px;
-        gap: 320px;
+        width: 350px;
+        gap: 350px;
     }
 }
 
